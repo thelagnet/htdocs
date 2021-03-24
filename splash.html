@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="lagnetlogo.png" />
+    <title>LagNet :: login</title>
+    <style>
+        input[type=submit] {
+            color: white;
+            background: green;
+            margin-left: 0%;
+            margin-right: 5%;
+            text-align: left;
+            font-size: 1.0em;
+            line-height: 2.5em;
+            font-weight: bold;
+            border: 3px;
+            border-style: inset;
+        }
+        
+        input[type=submit]:hover {
+            background: rgb(4, 99, 4);
+        }
+        
+        a {
+            color: rgb(56, 153, 0);
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+            margin-bottom: 35px;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="lagnetlogo.png" alt="..." width="139" height="100" />
+    <h2>Lagnet</h2>
+    <h3>welcome to get started click the green button below then navigate to <a>http://lagnet.com/</a></h3>
+
+    <form method="get" action="$authaction">
+        <input type="hidden" name="tok" value="$tok">
+        <input type="hidden" name="redir" value="$redir">
+        <input type="submit" value="login to Lagnet">
+    </form>
+    <br>
+    <hr>
+    <p>for more information about this wifi hotspot please go to <a>http://lagnet/</a> or <a>http://lagnet.com/</a> once you have followed the instructions below (these URLs will only work when connected to this hotspot)</p>
+    <p>for more information about LagNet please go to <a>http://Lagnet.glitch.me/</a></p>
+</body>
+
+</html>
